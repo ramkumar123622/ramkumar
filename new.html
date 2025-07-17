@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* . tag is used to class */
+      .box1 h1 {
+        color: red;
+      }
+
+      .box2 h1 {
+        color: blue;
+      }
+      /* # tag is use to id selector in css */
+      #head h1 {
+        color: green;
+      }
+      .box2 h2 {
+        color: yellow;
+      }
+      .box h2 {
+        color: brown;
+      }
+      p:hover {
+        color: blue;
+      }
+      li:first-child() {
+        color: pink;
+      }
+      li:nth-child(odd) {
+        color: aquamarine;
+      }
+      li:nth-child(even) {
+        color: aqua;
+      }
+      .bx > h2 {
+        color: chartreuse;
+      }
+      .c-bx h2 {
+        color: darkorange;
+      }
+
+      input[type="email"] {
+        color: blue;
+      }
+      input[type="text"] {
+        color: blue;
+      }
+      img[alt="image"] {
+        height: 400px;
+        width: 400px;
+        /* object-fit: fill; */
+        /*             top-left  bottom-right   top-right  bottom-left    */
+        /* border-radius: 40px 60px 70px 10px; */
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="https://images.unsplash.com/photo-1683009427598-9c21a169f98f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8"
+      alt="image"
+    />
+    <br />
+    <input type="text" />
+    <input type="email" />
+
+    <div class="bx">
+      <h2>hello jee</h2>
+    </div>
+    <div class="c-bx">
+      <h2>Sello jee</h2>
+    </div>
+
+    <ol>
+      <li>Lorem ipsum dolor sit amet.</li>
+      <li>Lorem ipsum dolor sit amet.</li>
+      <li>Lorem ipsum dolor sit amet.</li>
+      <li>Lorem ipsum dolor sit amet.</li>
+      <li>Lorem ipsum dolor sit amet.</li>
+    </ol>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti odio
+      placeat tempore quia consectetur tenetur suscipit doloribus et, aliquam
+      praesentium voluptas, laborum corporis perspiciatis velit eaque quis
+      minus! Iure temporibus, omnis doloremque asperiores reprehenderit
+      excepturi? Aliquid aperiam vero fugiat ipsam laudantium, harum officia
+      dolorem, vel doloremque laboriosam eius laborum iste.
+    </p>
+    <div id="head">
+      <h1>Logo</h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore
+        molestiae, reprehenderit perspiciatis ut necessitatibus beatae
+        architecto at dignissimos vero maiores cum unde amet excepturi in quasi?
+        Repudiandae, quisquam minus corrupti esse soluta fugiat porro? Facilis
+        labore alias facere quisquam eveniet.
+      </p>
+    </div>
+
+    <div class="box1">
+      <!-- inline css -->
+      <h1>hello my friend</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo fugiat
+        eos voluptas, a nobis doloremque magni et eaque aliquid nam debitis
+        esse, libero labore! Ipsum explicabo expedita hic placeat quas.
+      </p>
+    </div>
+    <div class="box2">
+      <h2>Sello jii</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eveniet
+        ipsum qui quasi doloremque itaque. Repellat aspernatur esse commodi
+        voluptas rerum accusamus labore tenetur.
+      </p>
+      <h2>hello my doxt</h2>
+    </div>
+
+    <div class="box">
+      <h2>somelorem</h2>
+    </div>
+  </body>
+</html>
